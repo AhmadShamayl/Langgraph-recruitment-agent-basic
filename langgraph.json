@@ -1,0 +1,11 @@
+{
+  "dockerfile_lines": [],
+  "graphs": {
+    "main": "./main.py:graph"
+  },
+  "env": "./lg-basic-recruitment-agent-venv",
+  "python_version": "3.11",
+  "dependencies": [
+    "."
+  ]
+}
