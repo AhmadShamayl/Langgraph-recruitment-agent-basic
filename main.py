@@ -93,12 +93,6 @@ display(Image(app.get_graph().draw_mermaid_png()))
 with open ('graph.png' , 'wb') as f:
    f.write(app.get_graph().draw_mermaid_png())
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> 5cd0666d7e599016db54fb33f04eec9f19c13191
-
 def run_cadidate_experience(application : str):
   results = app.invoke({'application' : application})
   return {
@@ -184,9 +178,5 @@ Open Source Software Development Specialization (Linux Foundation/Coursera): Com
 Linux Command Line Bootcamp (Udemy): Audited "The Linux Command Line Bootcamp: Beginner to Power User" course on Udemy."
 """
 results = run_cadidate_experience(application_text)
-<<<<<<< HEAD
 print(f'\n\nComputed Results\n\nApplication: {application_text}\nExperience Level: {results['experience_level']}\n Skills Match: {results['skill_match']}\nResponse: {results['response']}')
-=======
-print(f'\n\nComputed Results\n\nApplication: {application_text}\nExperience Level: {results['experience_level']}\n Skills Match: {results['skill_match']}\nResponse: {results['response']}')
->>>>>>> d2e51642 (setting things correctly)
->>>>>>> 5cd0666d7e599016db54fb33f04eec9f19c13191
+
